@@ -1,3 +1,13 @@
+body {
+   border-style: solid medium 40px;
+}
+
 .header {
    text-align: center;
+}
+
+.headline {
+   font: 3.5em arial, serif;
+   margin-top: 2em;
+
 }
