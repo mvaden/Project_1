@@ -32,7 +32,10 @@
 // If answer is "Louisana", prompt: "Correct!"
 // If else, prompt: "Oh no...so sorry. The correct answer is 'Louisana.'"
 
-Question 7:
-This state is only one to share a boarder with a single neighboring state. Name that state:
-If answer is, "Maine", prompt: "Wonderful! Maine shares it's land boarder with, and only with, New Hampshire."
-If else, prompt: "Oh no! Sorry, the correct answer is Maine. Maine shares it's land boarder with, and only with, New Hampshire."
+// Question 7:
+// This state is only one to share a boarder with a single neighboring state. Name that state:
+// If answer is, "Maine", prompt: "Wonderful! Maine shares it's land boarder with, and only with, New Hampshire."
+// If else, prompt: "Oh no! Sorry, the correct answer is Maine. Maine shares it's land boarder with, and only with, New Hampshire."
+
+// Question 8:
+//

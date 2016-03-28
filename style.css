@@ -5,9 +5,13 @@ body {
 .header {
    text-align: center;
 }
-
+/*.name are classes*/
 .headline {
    font: 3.5em arial, serif;
    margin-top: 2em;
 
+}
+/*# are just IDs*/
+#q1input {
+   /*height: 200px*/
 }
