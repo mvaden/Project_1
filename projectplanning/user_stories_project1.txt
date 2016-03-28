@@ -1,0 +1,11 @@
+User stories: Gold, silver, bronze.
+
+As a user:
+I want to play a game of trivia that involves questions and answers.
+I want there to be a mix of questions with different sets of values for answers, such as multiple choice, matching, black fill-ins.
+I want questions and objectives to be brief, coherent, and concise.
+I want to see a title at the tope of the page to indicate that I am about to play the game.
+I want to be able to know what my score is throughout the game so that I know what my final score is at the end.
+
+
+var 
