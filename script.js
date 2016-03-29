@@ -1,5 +1,23 @@
 // Global Variables:
-var states = ["New Jersey", "Alaska", "Phoneix, Arizona", "Colorado", "Route 20", "Louisana", "Maine"];
+var questions = [
+   ["Excluding sovergn territories, this US State experiences the highest level of population densitiy in the union:"]
+   ["This state occupies the largest total area of water per square mile within its boarder:"]
+   ["With a population of nearly 1.5 million, this state capital ranks #1 for having the largest municiple population of any state capital in the union:"]
+   ["At 6,800 feet, this state tops the list for having the highest mean elevation in the union."]
+   ["This highway, which touches both the Pacific and Atlantic coast lines, is the longest continual highway in the United States. Name that highway:"]
+];
+
+var answers = [
+   ["New Jersey"]
+   ["Alaska"]
+   ["Phoneix"]
+   ["Arizona"]
+   ["Colorado"]
+   ["Route 20"]
+   ["Louisana"]
+   ["Maine"]
+];
+
 var correctAnswer = prompt("Correct! The answer is function()");
 var incorrectAnswer = prompt("Incorrect! Sorry, the answer is function()");
 
@@ -10,7 +28,15 @@ function question1() {
    }
 }
 
+.innerHTML***
+getAttribute, setAttribute
 
+Get user input through click, textbox, whatever.
+console.log what the input is.
+compare it against hard-coded value
+   if user clicks on right value...
+console.log what hte comparison was, whether it was right or wrong
+display something to page whether answer is right or wrong.
 
 
 
