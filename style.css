@@ -1,5 +1,9 @@
 body {
-   border-style: solid medium 40px;
+   background-color: lightblue;
+   border-style: double;
+   border-width: thick;
+   padding: 0 10em 0 10em;
+   margin: 10em 10em;
 }
 
 .header {
@@ -13,5 +17,6 @@ body {
 }
 /*# are just IDs*/
 #q1input {
+   margin: 0.25em 0 1em 0;
    /*height: 200px*/
 }
