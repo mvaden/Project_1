@@ -1,4 +1,18 @@
-// Psuedo Code:
+// Global Variables:
+var states = ["New Jersey", "Alaska", "Phoneix, Arizona", "Colorado", "Route 20", "Louisana", "Maine"];
+var correctAnswer = prompt("Correct! The answer is function()");
+var incorrectAnswer = prompt("Incorrect! Sorry, the answer is function()");
+
+function question1() {
+   var userInput = document.getElementById("q1input").value;
+   if (userInput == states[0]) {
+      prompt("Correct! The answer is function()");
+   }
+}
+
+
+
+
 
 // Question 1:
 // Excluding sovergn territories, this US State experiences the highest level of population densitiy in the union:
