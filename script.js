@@ -1,42 +1,57 @@
 // Global Variables:
 var questions = [
-   ["Excluding sovergn territories, this US State experiences the highest level of population densitiy in the union:"]
+   ["Excluding sovergn territories, this US State experiences the highest level of population densitiy in the union:"],
    ["This state occupies the largest total area of water per square mile within its boarder:"]
-   ["With a population of nearly 1.5 million, this state capital ranks #1 for having the largest municiple population of any state capital in the union:"]
-   ["At 6,800 feet, this state tops the list for having the highest mean elevation in the union."]
+   ["With a population of nearly 1.5 million, this state capital ranks #1 for having the largest municiple population of any state capital in the union:"],
+   ["At 6,800 feet, this state tops the list for having the highest mean elevation in the union."],
    ["This highway, which touches both the Pacific and Atlantic coast lines, is the longest continual highway in the United States. Name that highway:"]
 ];
 
 var answers = [
-   ["New Jersey"]
-   ["Alaska"]
-   ["Phoneix"]
-   ["Arizona"]
-   ["Colorado"]
-   ["Route 20"]
-   ["Louisana"]
+   ["New Jersey"],
+   ["Alaska"],
+   ["Phoneix"],
+   ["Arizona"],
+   ["Colorado"],
+   ["Route 20"],
+   ["Louisana"],
    ["Maine"]
 ];
 
-var correctAnswer = prompt("Correct! The answer is function()");
-var incorrectAnswer = prompt("Incorrect! Sorry, the answer is function()");
+// var correctAnswer = prompt("Correct! The answer is function()");
+// var incorrectAnswer = prompt("Incorrect! Sorry, the answer is function()");
 
-function question1() {
-   var userInput = document.getElementById("q1input").value;
-   if (userInput == states[0]) {
-      prompt("Correct! The answer is function()");
-   }
-}
+// function displayText
 
-.innerHTML***
-getAttribute, setAttribute
+var question1Button = document.querySelector("#button1")
+   question1Button.addEventListener("click", function() {
+      var userInput = document.getElementById("q1input").value;
+         console.log(userInput);
+      if (userInput === "New Jersey") {
+         prompt("Correct! The answer is New Jersey");
+      }
+   })
 
-Get user input through click, textbox, whatever.
-console.log what the input is.
-compare it against hard-coded value
-   if user clicks on right value...
-console.log what hte comparison was, whether it was right or wrong
-display something to page whether answer is right or wrong.
+// function questions[0](); {
+//    var userInput = document.getElementById("q1input").value;
+//       console.log(userInput); {
+//    if (userInput == "New Jersey")
+//       prompt("Correct! The answer is New Jersey");
+//    else
+//    }
+// }
+
+// .innerHTML***
+// getAttribute, setAttribute
+//
+// GOALS FOR TONIGHT!!!
+// ====================
+// Get user input through click, textbox, whatever.
+// console.log what the input is.
+// compare it against hard-coded value
+//    if user clicks on right value...
+// console.log what hte comparison was, whether it was right or wrong
+// display something to page whether answer is right or wrong.
 
 
 
