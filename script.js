@@ -58,7 +58,7 @@ function twoAnswer() {
    var userInput = document.getElementById("q2input").value;
       console.log(userInput);
    if (userInput == answer[1]) {
-      alert(rightAnswer);
+      alert(rightAnswer[1]);
       console.log(rightAnswer[1]);
       }
    else if (userInput !== answer[1]) {
