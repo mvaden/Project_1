@@ -30,14 +30,17 @@ var question1Button = document.querySelector("#button1")
       if (userInput === "New Jersey") {
          prompt("Correct! The answer is New Jersey");
       }
+      else (userInput !== "New Jersey") {
+         prompt("Oops..sorry! The correct answer is New Jersey.");
+      }
    })
 
 var question2Button = document.querySelector("#button2")
    question1Button.addEventListener("click", function() {
       var userInput = document.getElementById("q2input").value;
          console.log(userInput);
-      if (userInput === "New Jersey") {
-         prompt("Correct! The answer is New Jersey");
+      if (userInput === "Alaska") {
+         prompt("Correct! The answer is Alaska");
       }
    })
 
@@ -45,8 +48,8 @@ var question3Button = document.querySelector("#button3")
    question1Button.addEventListener("click", function() {
       var userInput = document.getElementById("q3input").value;
          console.log(userInput);
-      if (userInput === "New Jersey") {
-         prompt("Correct! The answer is New Jersey");
+      if (userInput === "Phoenix") {
+         prompt("Correct! The answer is Phoenix, Arizona");
       }
    })
 
@@ -54,8 +57,8 @@ var question4Button = document.querySelector("#button4")
    question1Button.addEventListener("click", function() {
       var userInput = document.getElementById("q4input").value;
          console.log(userInput);
-      if (userInput === "New Jersey") {
-         prompt("Correct! The answer is New Jersey");
+      if (userInput === "Colorado") {
+         prompt("Correct! The answer is Colorado");
       }
    })
 
@@ -63,8 +66,8 @@ var question5Button = document.querySelector("#button5")
    question1Button.addEventListener("click", function() {
       var userInput = document.getElementById("q5input").value;
          console.log(userInput);
-      if (userInput === "New Jersey") {
-         prompt("Correct! The answer is New Jersey");
+      if (userInput === "Route 20" || "US Route 20") {
+         prompt("Correct! The answer is US Route 20");
       }
    })
 
