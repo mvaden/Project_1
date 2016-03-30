@@ -1,18 +1,8 @@
-// Global Variables:
-// var questions = [
-//    ["Excluding sovergn territories, this US State experiences the highest level of population densitiy in the union:"],
-//    ["This state occupies the largest total area of water per square mile within its boarder:"]
-//    ["With a population of nearly 1.5 million, this state capital ranks #1 for having the largest municiple population of any state capital in the union:"],
-//    ["At 6,800 feet, this state tops the list for having the highest mean elevation in the union."],
-//    ["This highway, which touches both the Pacific and Atlantic coast lines, is the longest continual highway in the United States. Name that highway:"]
-// ];
-
-
 // ================================
 // ====== Global Variables: =======
 // ================================
 
-var rightAnswers = [
+var answer = [
    "New Jersey",
    "Alaska",
    "Phoneix",
@@ -23,12 +13,20 @@ var rightAnswers = [
    "Maine"
 ];
 
-var wrongAnswers = [
+var rightAnswer = [
+   "Correct! The answer is New Jersey.",
+   "Correct! The answer is Alaska.",
+   "Correct! The answer is Phoenix Arizona",
+   "Correct! The answer is Colorado",
+   "Correct! The answer is US Route 20"
+]
+
+var wrongAnswers= [
    "Oops..sorry! The correct answer is New Jersey.",
    "Correct! The answer is Alaska",
    "Ohhh...sorry hombre! The correct answer is Phoenix, Arizona. Montpelier, Vermont",
    "Sorry, the correct answer is Colorado.",
-   "Answer is incorrect. The correct answer is US Route 20.",
+   "Answer is incorrect. The correct answer is US Route 20."
 ];
 
 
@@ -42,12 +40,13 @@ question1Button.addEventListener("click", oneAnswer)
 function oneAnswer() {
    var userInput = document.getElementById("q1input").value;
    console.log(userInput);
-   if (userInput == rightAnswers[0]) {
-      alert("Correct! The answer is New Jersey");
-      console.log(rightAnswers[0]);
+   if (userInput == answer[0]) {
+      alert(rightAnswer[0]);
+      console.log(rightAnswer[0]);
    }
-   else if (userInput !== rightAnswers[0]) {
-      alert(wrongAnswers[0]);
+   else if (userInput !== answer[0]) {
+      alert(wrongAnswer[0]);
+      console.log(wrongAnswer[0]);
    }
 };
 
@@ -58,12 +57,13 @@ question1Button.addEventListener("click", twoAnswer)
 function twoAnswer() {
    var userInput = document.getElementById("q2input").value;
       console.log(userInput);
-   if (userInput == rightAnswers[1]) {
-      alert("Correct! The answer is Alaska");
-      console.log(rightAnswers[1]);
+   if (userInput == answer[1]) {
+      alert(rightAnswer);
+      console.log(rightAnswer[1]);
       }
-   else if (userInput !== rightAnswers[1]) {
-      alert(wrongAnswers[1]);
+   else if (userInput !== answer[1]) {
+      alert(wrongAnswer[1]);
+      console.log(wrongAnswer[1])
    }
 }
 
@@ -74,12 +74,13 @@ question1Button.addEventListener("click", threeAnswer)
 function threeAnswer() {
    var userInput = document.getElementById("q3input").value;
       console.log(userInput);
-   if (userInput == rightAnswers[2]) {
-      alert("Correct! The answer is Phoenix, Arizona");
+   if (userInput == answers[2]) {
+      alert(rightAnswer[2]);
       console.log(rightAnswers[2]);
    }
-   else if (userInput !== rightAnswers[2]) {
-      alert(wrongAnswers[2]);
+   else if (userInput !== answer[2]) {
+      alert(wrongAnswer[2]);
+      console.log(wrongAnswer[2]);
    }
 }
 
@@ -90,12 +91,13 @@ question1Button.addEventListener("click", fourAnswer)
 function fourAnswer() {
    var userInput = document.getElementById("q4input").value;
       console.log(userInput);
-   if (userInput == rightAnswers[3]) {
-      alert("Correct! The answer is Colorado");
-      console.log(rightAnswers[3]);
+   if (userInput == answer[3]) {
+      alert(rightAnswer[3]);
+      console.log(rightAnswer[3]);
    }
-   else if (userInput !== rightAnswers[3]) {
-      alert(wrongAnswers[3]);
+   else if (userInput !== answer[3]) {
+      alert(wrongAnswer[3]);
+      console.log(wronganswer[3]);
    }
 }
 
@@ -106,12 +108,13 @@ question1Button.addEventListener("click", fiveAnswer)
 function fiveAnswer() {
    var userInput = document.getElementById("q5input").value;
       console.log(userInput);
-   if (userInput == rightAnswers[4]) {
-      alert("Correct! The answer is US Route 20");
-      console.log(rightAnswers[4]);
+   if (userInput == answer[4]) {
+      alert(rightAnswer[4]);
+      console.log(rightAnswer[4]);
    }
-   else if (userInput !== rightAnswers[4]) {
-      alert(wrongAnswers[4]);
+   else if (userInput !== answer[4]) {
+      alert(wrongAnswer[4]);
+      console.log(wrongAnswer[4]);
    }
 }
 
