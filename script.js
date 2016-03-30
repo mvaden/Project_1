@@ -32,36 +32,36 @@ var question1Button = document.querySelector("#button1")
       }
    })
 
-var question2Button = document.querySelector("#button1")
+var question2Button = document.querySelector("#button2")
    question1Button.addEventListener("click", function() {
-      var userInput = document.getElementById("q1input").value;
+      var userInput = document.getElementById("q2input").value;
          console.log(userInput);
       if (userInput === "New Jersey") {
          prompt("Correct! The answer is New Jersey");
       }
    })
 
-var question3Button = document.querySelector("#button1")
+var question3Button = document.querySelector("#button3")
    question1Button.addEventListener("click", function() {
-      var userInput = document.getElementById("q1input").value;
+      var userInput = document.getElementById("q3input").value;
          console.log(userInput);
       if (userInput === "New Jersey") {
          prompt("Correct! The answer is New Jersey");
       }
    })
 
-var question4Button = document.querySelector("#button1")
+var question4Button = document.querySelector("#button4")
    question1Button.addEventListener("click", function() {
-      var userInput = document.getElementById("q1input").value;
+      var userInput = document.getElementById("q4input").value;
          console.log(userInput);
       if (userInput === "New Jersey") {
          prompt("Correct! The answer is New Jersey");
       }
    })
 
-var question5Button = document.querySelector("#button1")
+var question5Button = document.querySelector("#button5")
    question1Button.addEventListener("click", function() {
-      var userInput = document.getElementById("q1input").value;
+      var userInput = document.getElementById("q5input").value;
          console.log(userInput);
       if (userInput === "New Jersey") {
          prompt("Correct! The answer is New Jersey");
