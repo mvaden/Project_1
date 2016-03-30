@@ -23,7 +23,7 @@ var rightAnswers = [
    "Maine"
 ];
 
-var wrongAnswers [
+var wrongAnswers = [
    "Oops..sorry! The correct answer is New Jersey.",
    "Correct! The answer is Alaska",
    "Ohhh...sorry hombre! The correct answer is Phoenix, Arizona. Montpelier, Vermont",
@@ -46,8 +46,8 @@ function oneAnswer() {
       alert("Correct! The answer is New Jersey");
       console.log(rightAnswers[0]);
    }
-   else if (userInput !== "New Jersey") {
-      alert("Oops..sorry! The correct answer is New Jersey.");
+   else if (userInput !== rightAnswers[0]) {
+      alert(wrongAnswers[0]);
    }
 };
 
@@ -62,10 +62,11 @@ function twoAnswer() {
       alert("Correct! The answer is Alaska");
       console.log(rightAnswers[1]);
       }
-      else if (userInput !== "") {
-         alert("")
-      }
-   })
+   else if (userInput !== rightAnswers[1]) {
+      alert(wrongAnswers[1]);
+   }
+}
+
 
 var question3Button = document.querySelector("#button3")
 question1Button.addEventListener("click", threeAnswer)
@@ -77,7 +78,10 @@ function threeAnswer() {
       alert("Correct! The answer is Phoenix, Arizona");
       console.log(rightAnswers[2]);
    }
-})
+   else if (userInput !== rightAnswers[2]) {
+      alert(wrongAnswers[2]);
+   }
+}
 
 
 var question4Button = document.querySelector("#button4")
@@ -88,20 +92,28 @@ function fourAnswer() {
       console.log(userInput);
    if (userInput == rightAnswers[3]) {
       alert("Correct! The answer is Colorado");
+      console.log(rightAnswers[3]);
    }
-})
+   else if (userInput !== rightAnswers[3]) {
+      alert(wrongAnswers[3]);
+   }
+}
 
 
 var question5Button = document.querySelector("#button5")
 question1Button.addEventListener("click", fiveAnswer)
 
 function fiveAnswer() {
-      var userInput = document.getElementById("q5input").value;
-         console.log(userInput);
-      if (userInput == rightAnswers[4]) {
-         alert("Correct! The answer is US Route 20");
-      }
-   })
+   var userInput = document.getElementById("q5input").value;
+      console.log(userInput);
+   if (userInput == rightAnswers[4]) {
+      alert("Correct! The answer is US Route 20");
+      console.log(rightAnswers[4]);
+   }
+   else if (userInput !== rightAnswers[4]) {
+      alert(wrongAnswers[4]);
+   }
+}
 
 // function questions[0](); {
 //    var userInput = document.getElementById("q1input").value;
