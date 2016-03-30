@@ -23,7 +23,7 @@ var rightAnswer = [
 
 var wrongAnswer= [
    "Oops..sorry! The correct answer is New Jersey.",
-   "Correct! The answer is Alaska.",
+   "Wrong response! The correct answer is Alaska.",
    "Ohhh...sorry hombre! The correct answer is Phoenix, Arizona.",
    "Sorry, the correct answer is Colorado.",
    "Answer is incorrect. The correct answer is US Route 20."
