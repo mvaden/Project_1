@@ -50,20 +50,6 @@ function oneAnswer() {
    }
 }
 
-function answer(number) {
-   var userInput = document.getElementById("q" + number + "input").value;
-   // q42input
-   console.log(userInput);
-   if (userInput == answer[number]) {
-      alert(rightAnswer[number]);
-      console.log(rightAnswer[number]);
-   }
-   else if (userInput !== answer[number]) {
-      alert(wrongAnswer[number]);
-      console.log(wrongAnswer[number]);
-   }
-}
-
 
 var question2Button = document.querySelector("#button2");
 question2Button.addEventListener("click", twoAnswer);
@@ -131,6 +117,26 @@ function fiveAnswer() {
       console.log(wrongAnswer[4]);
    }
 }
+
+
+// ================================
+// =========== Silver: ============
+// ================================
+
+// function answer(number) {
+//    var userInput = document.getElementById("q" + number + "input").value;
+//    // q42input
+//    console.log(userInput);
+//    if (userInput == answer[number]) {
+//       alert(rightAnswer[number]);
+//       console.log(rightAnswer[number]);
+//    }
+//    else if (userInput !== answer[number]) {
+//       alert(wrongAnswer[number]);
+//       console.log(wrongAnswer[number]);
+//    }
+// }
+
 
 // ================================
 // ========= Pseudocode: ==========
