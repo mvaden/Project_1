@@ -7,7 +7,12 @@
 //    ["This highway, which touches both the Pacific and Atlantic coast lines, is the longest continual highway in the United States. Name that highway:"]
 // ];
 
-var answers = [
+
+// ================================
+// ====== Global Variables: =======
+// ================================
+
+var rightAnswers = [
    "New Jersey",
    "Alaska",
    "Phoneix",
@@ -18,10 +23,18 @@ var answers = [
    "Maine"
 ];
 
-// var correctAnswer = prompt("Correct! The answer is function()");
-// var incorrectAnswer = prompt("Incorrect! Sorry, the answer is function()");
+var wrongAnswers [
+   "Oops..sorry! The correct answer is New Jersey.",
+   "Correct! The answer is Alaska",
+   "Ohhh...sorry hombre! The correct answer is Phoenix, Arizona. Montpelier, Vermont",
+   "Sorry, the correct answer is Colorado.",
+   "Answer is incorrect. The correct answer is US Route 20.",
+];
 
-// function displayText
+
+// ================================
+// ========== Functions: ==========
+// ================================
 
 var question1Button = document.querySelector("#button1")
 question1Button.addEventListener("click", oneAnswer)
@@ -29,9 +42,9 @@ question1Button.addEventListener("click", oneAnswer)
 function oneAnswer() {
    var userInput = document.getElementById("q1input").value;
    console.log(userInput);
-   if (userInput == answers[0]) {
+   if (userInput == rightAnswers[0]) {
       alert("Correct! The answer is New Jersey");
-      console.log(answers[0]);
+      console.log(rightAnswers[0]);
    }
    else if (userInput !== "New Jersey") {
       alert("Oops..sorry! The correct answer is New Jersey.");
@@ -39,40 +52,53 @@ function oneAnswer() {
 };
 
 
-
 var question2Button = document.querySelector("#button2")
-   question1Button.addEventListener("click", function() {
-      var userInput = document.getElementById("q2input").value;
-         console.log(userInput);
-      if (userInput == answers[1]) {
-         alert("Correct! The answer is Alaska");
-         console.log(answers[1]);
+question1Button.addEventListener("click", twoAnswer)
+
+function twoAnswer() {
+   var userInput = document.getElementById("q2input").value;
+      console.log(userInput);
+   if (userInput == rightAnswers[1]) {
+      alert("Correct! The answer is Alaska");
+      console.log(rightAnswers[1]);
+      }
+      else if (userInput !== "") {
+         alert("")
       }
    })
 
 var question3Button = document.querySelector("#button3")
-   question1Button.addEventListener("click", function() {
-      var userInput = document.getElementById("q3input").value;
-         console.log(userInput);
-      if (userInput == "Phoenix") {
-         alert("Correct! The answer is Phoenix, Arizona");
-      }
-   })
+question1Button.addEventListener("click", threeAnswer)
+
+function threeAnswer() {
+   var userInput = document.getElementById("q3input").value;
+      console.log(userInput);
+   if (userInput == rightAnswers[2]) {
+      alert("Correct! The answer is Phoenix, Arizona");
+      console.log(rightAnswers[2]);
+   }
+})
+
 
 var question4Button = document.querySelector("#button4")
-   question1Button.addEventListener("click", function() {
-      var userInput = document.getElementById("q4input").value;
-         console.log(userInput);
-      if (userInput == "Colorado") {
-         alert("Correct! The answer is Colorado");
-      }
-   })
+question1Button.addEventListener("click", fourAnswer)
+
+function fourAnswer() {
+   var userInput = document.getElementById("q4input").value;
+      console.log(userInput);
+   if (userInput == rightAnswers[3]) {
+      alert("Correct! The answer is Colorado");
+   }
+})
+
 
 var question5Button = document.querySelector("#button5")
-   question1Button.addEventListener("click", function() {
+question1Button.addEventListener("click", fiveAnswer)
+
+function fiveAnswer() {
       var userInput = document.getElementById("q5input").value;
          console.log(userInput);
-      if (userInput == "Route 20" || "US Route 20") {
+      if (userInput == rightAnswers[4]) {
          alert("Correct! The answer is US Route 20");
       }
    })
