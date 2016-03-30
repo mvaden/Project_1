@@ -50,9 +50,23 @@ function oneAnswer() {
    }
 }
 
+function answer(number) {
+   var userInput = document.getElementById("q" + number + "input").value;
+   // q42input
+   console.log(userInput);
+   if (userInput == answer[number]) {
+      alert(rightAnswer[number]);
+      console.log(rightAnswer[number]);
+   }
+   else if (userInput !== answer[number]) {
+      alert(wrongAnswer[number]);
+      console.log(wrongAnswer[number]);
+   }
+}
+
 
 var question2Button = document.querySelector("#button2");
-question1Button.addEventListener("click", twoAnswer);
+question2Button.addEventListener("click", twoAnswer);
 
 function twoAnswer() {
    var userInput = document.getElementById("q2input").value;
@@ -69,7 +83,7 @@ function twoAnswer() {
 
 
 var question3Button = document.querySelector("#button3");
-question1Button.addEventListener("click", threeAnswer);
+question3Button.addEventListener("click", threeAnswer);
 
 function threeAnswer() {
    var userInput = document.getElementById("q3input").value;
@@ -86,7 +100,7 @@ function threeAnswer() {
 
 
 var question4Button = document.querySelector("#button4");
-question1Button.addEventListener("click", fourAnswer);
+question4Button.addEventListener("click", fourAnswer);
 
 function fourAnswer() {
    var userInput = document.getElementById("q4input").value;
@@ -103,7 +117,7 @@ function fourAnswer() {
 
 
 var question5Button = document.querySelector("#button5");
-question1Button.addEventListener("click", fiveAnswer);
+question5Button.addEventListener("click", fiveAnswer);
 
 function fiveAnswer() {
    var userInput = document.getElementById("q5input").value;
