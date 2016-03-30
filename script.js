@@ -32,6 +32,42 @@ var question1Button = document.querySelector("#button1")
       }
    })
 
+var question2Button = document.querySelector("#button1")
+   question1Button.addEventListener("click", function() {
+      var userInput = document.getElementById("q1input").value;
+         console.log(userInput);
+      if (userInput === "New Jersey") {
+         prompt("Correct! The answer is New Jersey");
+      }
+   })
+
+var question3Button = document.querySelector("#button1")
+   question1Button.addEventListener("click", function() {
+      var userInput = document.getElementById("q1input").value;
+         console.log(userInput);
+      if (userInput === "New Jersey") {
+         prompt("Correct! The answer is New Jersey");
+      }
+   })
+
+var question4Button = document.querySelector("#button1")
+   question1Button.addEventListener("click", function() {
+      var userInput = document.getElementById("q1input").value;
+         console.log(userInput);
+      if (userInput === "New Jersey") {
+         prompt("Correct! The answer is New Jersey");
+      }
+   })
+
+var question5Button = document.querySelector("#button1")
+   question1Button.addEventListener("click", function() {
+      var userInput = document.getElementById("q1input").value;
+         console.log(userInput);
+      if (userInput === "New Jersey") {
+         prompt("Correct! The answer is New Jersey");
+      }
+   })
+
 // function questions[0](); {
 //    var userInput = document.getElementById("q1input").value;
 //       console.log(userInput); {
