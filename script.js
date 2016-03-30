@@ -21,7 +21,7 @@ var rightAnswer = [
    "Correct! The answer is US Route 20."
 ];
 
-var wrongAnswers= [
+var wrongAnswer= [
    "Oops..sorry! The correct answer is New Jersey.",
    "Correct! The answer is Alaska.",
    "Ohhh...sorry hombre! The correct answer is Phoenix, Arizona.",
@@ -74,9 +74,9 @@ question1Button.addEventListener("click", threeAnswer);
 function threeAnswer() {
    var userInput = document.getElementById("q3input").value;
       console.log(userInput);
-   if (userInput == answers[2]) {
+   if (userInput == answer[2]) {
       alert(rightAnswer[2]);
-      console.log(rightAnswers[2]);
+      console.log(rightAnswer[2]);
    }
    else if (userInput !== answer[2]) {
       alert(wrongAnswer[2]);
@@ -97,7 +97,7 @@ function fourAnswer() {
    }
    else if (userInput !== answer[3]) {
       alert(wrongAnswer[3]);
-      console.log(wronganswer[3]);
+      console.log(wrongAnswer[3]);
    }
 }
 
