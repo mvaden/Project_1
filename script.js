@@ -19,7 +19,7 @@ var rightAnswer = [
    "Correct! The answer is Phoenix Arizona",
    "Correct! The answer is Colorado",
    "Correct! The answer is US Route 20"
-]
+];
 
 var wrongAnswers= [
    "Oops..sorry! The correct answer is New Jersey.",
@@ -34,8 +34,8 @@ var wrongAnswers= [
 // ========== Functions: ==========
 // ================================
 
-var question1Button = document.querySelector("#button1")
-question1Button.addEventListener("click", oneAnswer)
+var question1Button = document.querySelector("#button1");
+question1Button.addEventListener("click", oneAnswer);
 
 function oneAnswer() {
    var userInput = document.getElementById("q1input").value;
@@ -48,11 +48,11 @@ function oneAnswer() {
       alert(wrongAnswer[0]);
       console.log(wrongAnswer[0]);
    }
-};
+}
 
 
-var question2Button = document.querySelector("#button2")
-question1Button.addEventListener("click", twoAnswer)
+var question2Button = document.querySelector("#button2");
+question1Button.addEventListener("click", twoAnswer);
 
 function twoAnswer() {
    var userInput = document.getElementById("q2input").value;
@@ -63,13 +63,13 @@ function twoAnswer() {
       }
    else if (userInput !== answer[1]) {
       alert(wrongAnswer[1]);
-      console.log(wrongAnswer[1])
+      console.log(wrongAnswer[1]);
    }
 }
 
 
-var question3Button = document.querySelector("#button3")
-question1Button.addEventListener("click", threeAnswer)
+var question3Button = document.querySelector("#button3");
+question1Button.addEventListener("click", threeAnswer);
 
 function threeAnswer() {
    var userInput = document.getElementById("q3input").value;
@@ -85,8 +85,8 @@ function threeAnswer() {
 }
 
 
-var question4Button = document.querySelector("#button4")
-question1Button.addEventListener("click", fourAnswer)
+var question4Button = document.querySelector("#button4");
+question1Button.addEventListener("click", fourAnswer);
 
 function fourAnswer() {
    var userInput = document.getElementById("q4input").value;
@@ -102,8 +102,8 @@ function fourAnswer() {
 }
 
 
-var question5Button = document.querySelector("#button5")
-question1Button.addEventListener("click", fiveAnswer)
+var question5Button = document.querySelector("#button5");
+question1Button.addEventListener("click", fiveAnswer);
 
 function fiveAnswer() {
    var userInput = document.getElementById("q5input").value;
@@ -117,6 +117,10 @@ function fiveAnswer() {
       console.log(wrongAnswer[4]);
    }
 }
+
+// ================================
+// ========= Pseudocode: ==========
+// ================================
 
 // function questions[0](); {
 //    var userInput = document.getElementById("q1input").value;
