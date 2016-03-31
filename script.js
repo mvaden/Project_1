@@ -7,8 +7,8 @@ var answer = [
    "Alaska",
    "Phoenix",
    "Colorado",
-   "US Route 20",
-   
+   "US Route 20"
+
 ];
 
 var rightAnswer = [
@@ -19,7 +19,7 @@ var rightAnswer = [
    "Correct! The answer is US Route 20."
 ];
 
-var wrongAnswer= [
+var wrongAnswer = [
    "Oops..sorry! The correct answer is New Jersey.",
    "Wrong response! The correct answer is Alaska.",
    "Ohhh...sorry hombre! The correct answer is Phoenix.",
