@@ -2,6 +2,7 @@
 // ====== Global Variables: =======
 // ================================
 
+// GREAT JOB!!!!
 var answer = [
    "New Jersey",
    "Alaska",
@@ -47,6 +48,8 @@ function oneAnswer() {
       console.log(wrongAnswer[0]);
    }
 }
+
+// I am really a fan of this organization. Variables are also to understand
 
 
 var question2Button = document.querySelector("#button2");
