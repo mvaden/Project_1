@@ -27,6 +27,12 @@ body {
    margin: 0.25em 0 0 0;
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_bold.woff);
+    font-weight: bold;
+}
+
 .conclusion {
    font-style: 'Playfair Display' 2em Arial, serif;
    font-weight: 400;
