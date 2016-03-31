@@ -5,9 +5,9 @@
 var answer = [
    "New Jersey",
    "Alaska",
-   "Phoneix",
-   "Arizona",
+   "Phoenix",
    "Colorado",
+   "US Route 20",
    // "Route 20",
    // "Louisana",
    // "Maine"
@@ -16,7 +16,7 @@ var answer = [
 var rightAnswer = [
    "Correct! The answer is New Jersey.",
    "Correct! The answer is Alaska.",
-   "Correct! The answer is Phoenix Arizona.",
+   "Correct! The answer is Phoenix, Arizona.",
    "Correct! The answer is Colorado.",
    "Correct! The answer is US Route 20."
 ];
@@ -24,7 +24,7 @@ var rightAnswer = [
 var wrongAnswer= [
    "Oops..sorry! The correct answer is New Jersey.",
    "Wrong response! The correct answer is Alaska.",
-   "Ohhh...sorry hombre! The correct answer is Phoenix, Arizona.",
+   "Ohhh...sorry hombre! The correct answer is Phoenix.",
    "Sorry, the correct answer is Colorado.",
    "Answer is incorrect. The correct answer is US Route 20."
 ];
