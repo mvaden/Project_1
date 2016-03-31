@@ -31,7 +31,6 @@ body {
     font-family: myFirstFont;
     src: url(sansation_bold.woff);
     font-weight: bold;
-}
 
 .conclusion {
    font-style: 'Playfair Display' 2em Arial, serif;
