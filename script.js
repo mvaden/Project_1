@@ -8,9 +8,7 @@ var answer = [
    "Phoenix",
    "Colorado",
    "US Route 20",
-   // "Route 20",
-   // "Louisana",
-   // "Maine"
+   
 ];
 
 var rightAnswer = [

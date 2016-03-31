@@ -9,14 +9,28 @@ body {
 .header {
    text-align: center;
 }
+
 /*.name are classes*/
 .headline {
    font: 3.5em arial, serif;
-   margin-top: 2em;
+   margin: 2em 0 0.2em 0;
 
 }
+
 /*# are just IDs*/
-#q1input {
+#q1input, #q2input, #q3input, #q4input {
    margin: 0.25em 0 1em 0;
    /*height: 200px*/
+}
+
+#q5input {
+   margin: 0.25em 0 0 0;
+}
+
+.conclusion {
+   font-style: 'Playfair Display' 2em Arial, serif;
+   font-weight: 400;
+   text-align: center;
+   margin: 5em 0 5em 0;
+   /*font-size: 24px;*/
 }
