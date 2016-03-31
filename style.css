@@ -2,6 +2,7 @@ body {
    background-color: lightblue;
    border-style: double;
    border-width: thick;
+   border-radius: 2em;
    padding: 0 10em 0 10em;
    margin: 10em 10em;
 }
@@ -14,7 +15,6 @@ body {
 .headline {
    font: 3.5em arial, serif;
    margin: 2em 0 0.2em 0;
-
 }
 
 /*# are just IDs*/
