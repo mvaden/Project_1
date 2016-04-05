@@ -8,4 +8,4 @@ I want to see a title at the tope of the page to indicate that I am about to pla
 I want to be able to know what my score is throughout the game so that I know what my final score is at the end.
 
 
-var 
+var

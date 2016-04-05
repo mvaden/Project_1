@@ -34,7 +34,7 @@ body {
 }
 
 .conclusion {
-   font-style: 'Playfair Display' 2em Arial, serif;
+   /*font-style: 'Playfair Display' 2em Arial, serif;*/
    font-weight: 400;
    text-align: center;
    margin: 5em 0 5em 0;

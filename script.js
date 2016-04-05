@@ -121,19 +121,19 @@ function fiveAnswer() {
 // =========== Silver: ============
 // ================================
 
-// function answer(number) {
-//    var userInput = document.getElementById("q" + number + "input").value;
-//    // q42input
-//    console.log(userInput);
-//    if (userInput == answer[number]) {
-//       alert(rightAnswer[number]);
-//       console.log(rightAnswer[number]);
-//    }
-//    else if (userInput !== answer[number]) {
-//       alert(wrongAnswer[number]);
-//       console.log(wrongAnswer[number]);
-//    }
-// }
+function answer(number) {
+   var userInput = document.getElementById("q" + number + "input").value;
+   // q42input
+   console.log(userInput);
+   if (userInput == answer[number]) {
+      alert(rightAnswer[number]);
+      console.log(rightAnswer[number]);
+   }
+   else if (userInput !== answer[number]) {
+      alert(wrongAnswer[number]);
+      console.log(wrongAnswer[number]);
+   }
+}
 
 
 // ================================
