@@ -1,94 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <meta charset="UTF-8">
-   <title>Welcome to Trivia!</title>
-   <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Welcome to Trivia!</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Loading Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
+
+<div class="container-fluid">
+  
 <body>
 
-<!-- This is introduction to playing trivia. -->
-   <div class="header">
-      <div class="headline">Welcome To Trivia!</div>
-   <img src="http://everythingaustinapartments.com/blog/wp-content/uploads/2012/02/homer2.png" alt="Homer Simpson doing trivia.">
-<!-- Brief intro explaining the game. -->
-      <p>I'm your host, Homer Simpson. Today, we will test your knowledge of geography. Below are a series of questions. <br>These questions will range in different formats.</p>
-      <p>Your objective is it answer each question as presented. Each question is worth one point! Do your best to earn the top score!</p>
-      <div class="goodLuck">Good Luck!</div><br>
-   </div>
+    <!-- This is introduction to playing trivia. -->
+    <header class="header">
+        <div class="headline">Welcome To Trivia!</div>
+        <center><img src="http://everythingaustinapartments.com/blog/wp-content/uploads/2012/02/homer2.png" alt="Homer Simpson doing trivia." class="img-responsive"></center>
+        <!-- Brief intro explaining the game. -->
+        <p class="lead">I'm your host, Homer Simpson. Today, we will test your knowledge of geography. Below are a series of questions.
+        <p>These questions will range in different formats.</p>
+        <p>Your objective is it answer each question as presented. Each question is worth one point! Do your best to earn the top score!</p>
+        <div class="goodLuck">Good Luck!</div>
+        <br>
+    </header>
 
-<!-- Question 1 + answer. -->
-   <div class="question1">Question 1: Excluding sovergn territories, this US State experiences the highest level of population densitiy in the union...
-      <div class="density"></div>
-      <input id="q1input" type="text" name="name" value="">
-      <button id="button1" type="button">Submit</button>
-      <!-- Target the input field in JS -->
-   </div>
+    <section class="trivia">
+        <!-- Question 1 + answer. -->
+        <div class="question1">Question 1: Excluding sovergn territories, this US State experiences the highest level of population densitiy in the union...
+            <div class="density"></div>
+            <input id="q1input" type="text" name="name" placeholder="Enter Text Here" value="">
+            <button id="button1" type="button">Submit</button>
+            <!-- Target the input field in JS -->
+        </div>
 
-<!-- Question 2 + answer.  -->
-   <div class="question2">Question 2: This state occupies the largest total area of water per square mile within its boarder...
-      <div class="water"></div>
-      <input id="q2input" type="text" name="name" value="">
-      <button id="button2" type="button">Submit</button>
-   </div>
+        <!-- Question 2 + answer.  -->
+        <div class="question2">Question 2: This state occupies the largest total area of water per square mile within its boarder...
+            <div class="water"></div>
+            <input id="q2input" type="text" name="name" placeholder="Enter Text Here" value="">
+            <button id="button2" type="button">Submit</button>
+        </div>
 
-<!-- Question 3 -->
-   <div class="question3">Question 3: With a population of nearly 1.5 million, this state capital ranks #1 for having the largest municiple population of any state capital in the union...
-      <div class="capital"></div>
-      <input id="q3input" type="text" name="name" value="">
-      <button id="button3" type="button">Submit</button>
-   </div>
+        <!-- Question 3 -->
+        <div class="question3">Question 3: With a population of nearly 1.5 million, this state capital ranks #1 for having the largest municiple population of any state capital in the union...
+            <div class="capital"></div>
+            <input id="q3input" type="text" name="name" placeholder="Enter Text Here" value="">
+            <button id="button3" type="button">Submit</button>
+        </div>
 
-<!-- Question 4 -->
-   <div class="question4">Question 4: At 6,800 feet, this state tops the list for having the highest mean elevation in the union...
-      <div class="elevation"></div>
-      <input id="q4input" type="text" name="name" value="">
-      <button id="button4" type="button">Submit</button>
-   </div>
+        <!-- Question 4 -->
+        <div class="question4">Question 4: At 6,800 feet, this state tops the list for having the highest mean elevation in the union...
+            <div class="elevation"></div>
+            <input id="q4input" type="text" name="name" placeholder="Enter Text Here" value="">
+            <button id="button4" type="button">Submit</button>
+        </div>
 
-<!-- Question 5 -->
-   <div class="question5">Question 5: This highway, which touches both the Pacific and Atlantic coast lines, is the longest continual highway in the United States...
-      <div class="route"></div>
-      <input id="q5input" type="text" name="name" value="">
-      <button id="button5" type="button">Submit</button>
-   </div>
+        <!-- Question 5 -->
+        <div class="question5">Question 5: This highway, which touches both the Pacific and Atlantic coast lines, is the longest continual highway in the United States...
+            <div class="route"></div>
+            <input id="q5input" type="text" name="name" placeholder="Enter Text Here" value="">
+            <button id="button5" type="button">Submit</button>
+        </div>
 
-   <!-- <div class="bonus">
-      <div class="states"></div>
-   </div>
+        <!-- <div class="bonus">
+           <div class="states"></div>
+        </div>
 
-   <div class="question6">
-      <div class="precipition"></div>
-   </div>
+        <div class="question6">
+           <div class="precipition"></div>
+        </div>
 
-   <div class="question7">
-      <div class="neighbor"></div>
-   </div>
-   Need to create addtional question/answers from this point forward in script.js. -->
+        <div class="question7">
+           <div class="neighbor"></div>
+        </div>
+        
+        <div class="question8">
+           <div class=""></div>
+        </div>
 
-   <!-- <div class="question8">
-      <div class=""></div>
-   </div>
+        <div class="question9">
+           <div class=""></div>
+        </div>
 
-   <div class="question9">
-      <div class=""></div>
-   </div>
+        <div class="question10"> 
+           <div class=""></div>
+        </div>
 
-   <div class="question10"> 
-      <div class=""></div>
-   </div>
+        <div class="bonus">
+           <div class=""></div>
+        </div> -->
+    </section>
 
-   <div class="bonus">
-      <div class=""></div>
-   </div> -->
+    <footer class="conclusion">
+        Thank you for playing!!
+    </footer>
 
-   <footer class="conclusion">Thank you for playing!!
-   </footer>
-
-   <p>
-      The repository for this project can be located <a href="https://github.com/mvaden/Project_1" target="blank">here</a>.
-   </p>
-
-   <script src="script.js"></script>
+    <p>
+        The repository for this project can be located <a href="https://github.com/mvaden/Project_1" target="blank">here</a>.
+    </p>
+    
+    <small>
+      &copy; 2016. All rights reserved.
+    </small>
+    
+    <script src="script.js"></script>
 </body>
+</div>
+
 </html>
+

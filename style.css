@@ -1,10 +1,10 @@
 body {
-   background-color: lightblue;
-   border-style: double;
-   border-width: thick;
-   border-radius: 2em;
+   background: lightblue !important;
    padding: 0 10em 0 10em;
-   margin: 10em 10em;
+}
+
+img {
+  padding: 1.5em 0;
 }
 
 .header {
@@ -14,7 +14,7 @@ body {
 /*.name are classes*/
 .headline {
    font: 3.5em arial, serif;
-   margin: 2em 0 0.2em 0;
+   margin: 0.8em 0 0.2em 0;
 }
 
 /*# are just IDs*/
