@@ -3,6 +3,8 @@ This is Matthew Vaden's Project One for WDI 9 (General Assembly - DC). This is a
 - A link the web app can be found here: http://mvaden.github.io/Project_1/
 - A link to the repo for this project can be found here: https://github.com/mvaden/Project_1
 
+***This site fully responsive, thanks to Bootstrap.
+
 Project Planning:
 - The 'projectplanning' folder contains a frozen gliffy file of the Simpsons character, Homer Simpson.
 - readme_two.md contains a front-to-back walkthrough of the planning process.
