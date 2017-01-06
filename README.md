@@ -1,7 +1,8 @@
 This is Matthew Vaden's Project One for WDI 9 (General Assembly - DC). This is a single-page app containing Vanilla JavaScript as the principle language for programming here.
 
 - A link the web app can be found here: http://mvaden.github.io/Project_1/
-- A link to the repo for this project can be found here: https://github.com/mvaden/Project_1
+- [A link to this app can be found here:](http://mvaden.github.io/Project_1/ "Let's Play Trivia").
+- [A link to the repo for this project can be found here:] (https://github.com/mvaden/Project_1 "Back to the Repo")
 
 ***This site fully responsive, thanks to Bootstrap.
 
